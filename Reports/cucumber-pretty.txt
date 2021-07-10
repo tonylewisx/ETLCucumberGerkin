@@ -1,0 +1,17 @@
+# Author: LJA
+# Version: 1.00
+# Comment:
+# 17/2/2020 - created
+#
+@SanityTests
+Feature: Sanity Tests
+
+  Scenario: End of Run One             # SanityTests.feature:10
+    Given Run one has ended            # ExecuteTests.run_one_ended()
+    When All phone numbers are removed # ExecuteTests.all_phone_numbers_are_removed()
+    Then Default phone number is used  # ExecuteTests.incorrect_login()
+
+  Scenario: End of run one    # SanityTests.feature:15
+    Given Run one has ended   # ExecuteTests.run_one_ended()
+    When One enters code 1234 # ExecuteTests.enter_password(String)
+    Then The door opens       # ExecuteTests.dorr_open()
