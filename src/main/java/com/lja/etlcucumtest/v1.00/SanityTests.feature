@@ -7,12 +7,12 @@
 @SanityTests
 Feature: Sanity Tests
 
-  Scenario: End of Run One
+  Scenario: End of Run One test 1
     Given Run one has ended
     When All phone numbers are removed
-    Then Default phone number is used
+    Then The Employee record id left is 11
 
- Scenario: End of run one
+ Scenario: End of run one test 2
     Given Run one has ended
     When One enters code 1234
     Then The door opens 

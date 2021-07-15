@@ -6,12 +6,19 @@
 @SanityTests
 Feature: Sanity Tests
 
-  Scenario: End of Run One             # SanityTests.feature:10
-    Given Run one has ended            # ExecuteTests.run_one_ended()
-    When All phone numbers are removed # ExecuteTests.all_phone_numbers_are_removed()
-    Then Default phone number is used  # ExecuteTests.incorrect_login()
+  Scenario: End of Run One test 1          # SanityTests.feature:10
+    Given Run one has ended                # ExecuteTests.run_one_ended()
+    When All phone numbers are removed     # ExecuteTests.all_phone_numbers_are_removed()
+    Then The Employee record id left is 11 # ExecuteTests.incorrect_login(String)
+      java.lang.AssertionError
+      	at org.junit.Assert.fail(Assert.java:86)
+      	at org.junit.Assert.assertTrue(Assert.java:41)
+      	at org.junit.Assert.assertTrue(Assert.java:52)
+      	at com.lja.etlcucumtest.ExecuteTests.incorrect_login(ExecuteTests.java:70)
+      	at ✽.Then The Employee record id left is 11(SanityTests.feature:13)
 
-  Scenario: End of run one    # SanityTests.feature:15
-    Given Run one has ended   # ExecuteTests.run_one_ended()
-    When One enters code 1234 # ExecuteTests.enter_password(String)
-    Then The door opens       # ExecuteTests.dorr_open()
+
+  Scenario: End of run one test 2 # SanityTests.feature:15
+    Given Run one has ended       # ExecuteTests.run_one_ended()
+    When One enters code 1234     # ExecuteTests.enter_password(String)
+    Then The door opens           # ExecuteTests.dorr_open()

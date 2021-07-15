@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0.289865">
+    <testcase classname="Sanity Tests" name="End of Run One test 1" time="0.289539">
+        <failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at com.lja.etlcucumtest.ExecuteTests.incorrect_login(ExecuteTests.java:70)&#13;&#10;&#9;at ✽.Then The Employee record id left is 11(SanityTests.feature:13)&#13;&#10;"><![CDATA[Given Run one has ended.....................................................passed
+When All phone numbers are removed..........................................passed
+Then The Employee record id left is 11......................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.lja.etlcucumtest.ExecuteTests.incorrect_login(ExecuteTests.java:70)
+	at ✽.Then The Employee record id left is 11(SanityTests.feature:13)
+]]></failure>
+    </testcase>
+    <testcase classname="Sanity Tests" name="End of run one test 2" time="0.000326">
+        <system-out><![CDATA[Given Run one has ended.....................................................passed
+When One enters code 1234...................................................passed
+Then The door opens.........................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

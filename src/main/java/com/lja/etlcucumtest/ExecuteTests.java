@@ -19,6 +19,8 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 //import io.appium.java_client.android.AndroidDriver;
 
+import com.lja.dto.*;
+
 
 public class ExecuteTests  {
 //	Capabilities cap;
@@ -60,10 +62,12 @@ public void all_phone_numbers_are_removed()  {
 }
 
 
-@Then("^Default phone number is used$")
-public void incorrect_login() {
-	System.out.println("executing test");
-	assertTrue(1==1);
+@Then("^The Employee record id left is ? (.*)$")
+public void incorrect_login(String id) {
+	Emp emp_val = new Emp("1","lja","60");
+	Emp emp_exp = new Emp(id,"lja","60");
+	System.out.println("emp id value = "+ id);
+	assertTrue(emp_val.equals(emp_exp));
   }
 
 
@@ -82,7 +86,6 @@ public void incident() {
 @Then("^the incident table is empty $")
 public void incidenttab() {
 	System.out.println("Table incident empty");
-	Assert.assertEquals(1,1);
 }
 
 @When("^the incident table is empty$")

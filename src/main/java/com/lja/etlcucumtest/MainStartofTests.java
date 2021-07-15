@@ -1,10 +1,13 @@
 package com.lja.etlcucumtest;
 /*
+ * Author : LJA
  * 
- * 
- * OLder version which has isssues in the plugin=  options 
- * 
- * run TestRunner.java instead
+ * Version: 1.2
+ *  Comment : to run , right click on this program in eclipse then run as junit.
+ *            One can also open Feature file then right click , run as cumcumber feature.This way
+ *            any unfounded glue code is created in output for you !!
+ *            
+ *            N.b MainStartofTest extends the reporting with overall summary .
  * 
  * 
  * 
@@ -33,7 +36,7 @@ outputFolder = "Reports")
 		features = {"src/main/java/com/lja/etlcucumtest/v1.00"}
 		,glue={"com.lja.etlcucumtest"}
 	//	,tags = {"@SanityTests"}
-	//	,monochrome = true
+		,monochrome = true
 		)
 
 public class MainStartofTests { }

@@ -1,0 +1,78 @@
+[
+  {
+    "source": "^All phone numbers are removed$",
+    "steps": [
+      {
+        "name": "All phone numbers are removed",
+        "aggregatedDurations": {
+          "average": 0.0000765,
+          "median": 0.0000765
+        },
+        "durations": [
+          {
+            "duration": 0.0000765,
+            "location": "SanityTests.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Run one has ended$",
+    "steps": [
+      {
+        "name": "Run one has ended",
+        "aggregatedDurations": {
+          "average": 0.1419416,
+          "median": 0.1419416
+        },
+        "durations": [
+          {
+            "duration": 0.2837898,
+            "location": "SanityTests.feature:11"
+          },
+          {
+            "duration": 0.0000934,
+            "location": "SanityTests.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^The door opens$",
+    "steps": [
+      {
+        "name": "The door opens",
+        "aggregatedDurations": {
+          "average": 0.0000467,
+          "median": 0.0000467
+        },
+        "durations": [
+          {
+            "duration": 0.0000467,
+            "location": "SanityTests.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^One enters code (\\d+)$",
+    "steps": [
+      {
+        "name": "One enters code 1234",
+        "aggregatedDurations": {
+          "average": 0.0001856,
+          "median": 0.0001856
+        },
+        "durations": [
+          {
+            "duration": 0.0001856,
+            "location": "SanityTests.feature:17"
+          }
+        ]
+      }
+    ]
+  }
+]
