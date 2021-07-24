@@ -5,12 +5,12 @@
       {
         "name": "All phone numbers are removed",
         "aggregatedDurations": {
-          "average": 0.0000765,
-          "median": 0.0000765
+          "average": 0.000083,
+          "median": 0.000083
         },
         "durations": [
           {
-            "duration": 0.0000765,
+            "duration": 0.000083,
             "location": "SanityTests.feature:12"
           }
         ]
@@ -23,16 +23,16 @@
       {
         "name": "Run one has ended",
         "aggregatedDurations": {
-          "average": 0.1419416,
-          "median": 0.1419416
+          "average": 0.1314229,
+          "median": 0.1314229
         },
         "durations": [
           {
-            "duration": 0.2837898,
+            "duration": 0.262743,
             "location": "SanityTests.feature:11"
           },
           {
-            "duration": 0.0000934,
+            "duration": 0.0001028,
             "location": "SanityTests.feature:16"
           }
         ]
@@ -45,12 +45,12 @@
       {
         "name": "The door opens",
         "aggregatedDurations": {
-          "average": 0.0000467,
-          "median": 0.0000467
+          "average": 11.6586337,
+          "median": 11.6586337
         },
         "durations": [
           {
-            "duration": 0.0000467,
+            "duration": 11.6586337,
             "location": "SanityTests.feature:18"
           }
         ]
@@ -63,13 +63,31 @@
       {
         "name": "One enters code 1234",
         "aggregatedDurations": {
-          "average": 0.0001856,
-          "median": 0.0001856
+          "average": 0.0001348,
+          "median": 0.0001348
         },
         "durations": [
           {
-            "duration": 0.0001856,
+            "duration": 0.0001348,
             "location": "SanityTests.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^The Employee record id left is ? (.*)$",
+    "steps": [
+      {
+        "name": "The Employee record id left is 1",
+        "aggregatedDurations": {
+          "average": 0.0043389,
+          "median": 0.0043389
+        },
+        "durations": [
+          {
+            "duration": 0.0043389,
+            "location": "SanityTests.feature:13"
           }
         ]
       }

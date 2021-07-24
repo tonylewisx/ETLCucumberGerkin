@@ -20,6 +20,8 @@ import cucumber.api.java.en.When;
 //import io.appium.java_client.android.AndroidDriver;
 
 import com.lja.dto.*;
+import com.lja.mysqldao.ConnMysql;
+import com.lja.oracledao.OracleCon;
 
 
 public class ExecuteTests  {
@@ -52,6 +54,13 @@ public void enter_password(String c)  {
 
 @Then("^The door opens$")
 public void dorr_open() {
+//	ConnMysql c = new ConnMysql("jdbc:mysql://192.168.1.74:3306/","mdadb","com.mysql.jdbc.Driver","mda","mda");
+//	c.connect();
+	
+
+  OracleCon c = new OracleCon("jdbc:oracle:thin:@192.168.1.74:1521:xe","oracle.jdbc.driver.OracleDriver","system","javelin");
+  c.connect();
+  
 	assertTrue(1==1);
   }
 

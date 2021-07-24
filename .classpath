@@ -36,5 +36,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/apps/EclipseExternLibs/Selenium/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="C:/apps/EclipseExternLibs/mysql-connector-java-5.1.30.jar"/>
+	<classpathentry kind="lib" path="C:/apps/EclipseExternLibs/ojdbc8.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

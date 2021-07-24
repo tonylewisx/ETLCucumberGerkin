@@ -1,5 +1,9 @@
 package com.lja.mysqldao;
-
+/*
+ *   Inorder to access and connect to MySql server one woyuld need 
+ *   the external jar mysql-connector-java-5.1.3.0.jar
+ *   within the project
+ */
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;

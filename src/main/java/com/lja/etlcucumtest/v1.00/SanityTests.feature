@@ -10,7 +10,7 @@ Feature: Sanity Tests
   Scenario: End of Run One test 1
     Given Run one has ended
     When All phone numbers are removed
-    Then The Employee record id left is 11
+    Then The Employee record id left is 1
 
  Scenario: End of run one test 2
     Given Run one has ended
